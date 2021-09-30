@@ -3,6 +3,7 @@ package backend
 class UrlMappings {
 
     static mappings = {
+        //these are routes for restapi
         delete "/$controller/$id(.$format)?"(action:"delete")
         get "/$controller(.$format)?"(action:"index")
         get "/$controller/$id(.$format)?"(action:"show")
